@@ -1,2 +1,18 @@
 # Clinical_discharge_agent
-Agentic AI system that processes patient PDF records and generates clinically safe discharge summary drafts using PDF extraction, OCR fallback, medication reconciliation, conflict detection, and human-review safety guardrails.
+This project implements an Agentic AI workflow that reads patient medical records from PDF documents and generates structured discharge summary drafts for clinician review
+
+Patient PDFs
+      ↓
+PDF/OCR Extraction
+      ↓
+Clinical Information Extraction
+      ↓
+Medication Reconciliation
+      ↓
+Conflict Detection
+      ↓
+Drug Interaction Check
+      ↓
+Agent Planning Loop
+      ↓
+Discharge Summary Draft
